@@ -6,8 +6,8 @@
   >
 - 03_12 [Classes](https://github.com/m-soro/Practice/tree/main/03_12)
   > Learned how to create classes, importing it and exporting it.
-  - 03_14 [Classes](https://github.com/m-soro/Practice/tree/main/03_14)
-    > Re-inforced learning about objects, used an array of objects to apply methods.
+- 03_14 [Classes](https://github.com/m-soro/Practice/tree/main/03_14)
+  > Re-inforced learning about objects, used an array of objects to apply methods.
 - 05_04 [Insert Topic](https://github.com/m-soro/Practice/tree/main/05_04)
   >
 - 05_08 [Insert Topic](https://github.com/m-soro/Practice/tree/main/05_08)
