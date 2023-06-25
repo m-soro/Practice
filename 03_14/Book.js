@@ -19,7 +19,7 @@ class Book {
   priceOnSale(discount) {
     if (this.onSale)
       return (
-        "Discounted price is " +
+        "Discounted price is USD " +
         (this.price - this.price * (discount / 100)).toString()
       );
     else return "Book NOT on sale";
