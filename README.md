@@ -29,6 +29,7 @@
 - 05_08 [Manipulate Dom Elements](https://github.com/m-soro/Practice/tree/main/05_08)
 
   > Used element.classList to add, remove, toggle and replace, and used element.setAttribute to add attribute and add inline style to an element
+  > Example of how to changs style `document.querySelector(".site-title").style.fontFamily='serif'`. Use camelCase
   >
   > - [Practice webpage](https://m-soro.github.io/Practice/05_08/index.html)
 
@@ -37,6 +38,10 @@
   > Used element.createElememt to create a nav bar and prepend this to the siteheader
   >
   > - [Practice webpage](https://m-soro.github.io/Practice/05_09/index.html)
+
+- 07_04 [Array and Array Methods](https://github.com/m-soro/Practice/tree/main/07_04)
+
+  > Learned about arrays and array methods
 
 - 08_06 [Insert Topic](https://github.com/m-soro/Practice/tree/main/08_06)
 
