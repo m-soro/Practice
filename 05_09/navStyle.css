@@ -1,0 +1,26 @@
+.nav-class {
+  width: 100%;
+  background-color: antiquewhite;
+  padding: 20px 20px;
+}
+
+ul.nav-items {
+  /* This is the unordered list */
+
+  /* Give the list flex - to enable flex 1 to actual list element */
+  display: flex;
+
+  /* These two helps to keep everything center */
+  margin: 0;
+  padding: 0;
+}
+.nav-items li {
+  /* This makes the list items to space out */
+  flex: 1;
+
+  /* Give direction on how the text should appear */
+  text-align: center;
+
+  /* Remove the buttlets from list items */
+  list-style-type: none;
+}

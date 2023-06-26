@@ -15,7 +15,9 @@
   > [Practice webpage](https://m-soro.github.io/Practice/05_04/index.html)
 - 05_08 [Manipulate Dom Elements](https://github.com/m-soro/Practice/tree/main/05_08)
   > Used element.classList to add, remove, toggle and replace, and used element.setAttribute to add attribute and add inline style to an element
-  > [Practice webpage](https://m-soro.github.io/Practice/05_08/index.html)
+- 05_09 [Create an Element and inject to HTML](https://github.com/m-soro/Practice/tree/main/05_09)
+  > Used element.createElememt to create a nav bar and prepend this to the siteheader
+  > [Practice webpage](https://m-soro.github.io/Practice/05_09/index.html)
 - 08_06 [Insert Topic](https://github.com/m-soro/Practice/tree/main/08_06)
   >
 - 08_09 [Insert Topic](https://github.com/m-soro/Practice/tree/main/08_09)
