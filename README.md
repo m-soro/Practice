@@ -47,6 +47,7 @@
 
   > Learned and created functions - that manipulated the DOM - added elements, remove class, added class
   >
+  > - [Practice webpage](https://functions.msoro.repl.co/)
   > - [Practice webpage](https://m-soro.github.io/Practice/08_06/index.html)
 
 - 08_09 [Insert Topic](https://github.com/m-soro/Practice/tree/main/08_06)
