@@ -43,7 +43,7 @@
 
   > Learned about arrays and array methods
 
-- 08_06 [Functions - Arrow, Anonymous, Regular Functions](https://github.com/m-soro/Practice/tree/main/08_09)
+- 08_06 [Functions - Arrow, Anonymous, Regular Functions](https://github.com/m-soro/Practice/tree/main/08_06)
 
   > Learned and created functions - that manipulated the DOM - added elements, remove class, added class
   >
