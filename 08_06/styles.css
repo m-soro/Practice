@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+/* Main is the main flexbox of the body for the four divs*/
+.main {
+  display: flex;
+  justify-content: center; /*This is actually what centers the 4 divs*/
+  background-color: beige;
+}
+
+/* This is the flex box of .main that holds the four divs*/
+.main-section {
+  display: flex;
+  background-color: aqua;
+}
+
+div {
+  display: flex; /*Give the divs flex properties*/
+  justify-content: center; /*These are the ones centering the button inside the div*/
+  align-items: center; /*These are the ones centering the button inside the div*/
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  background-color: bisque;
+}
+
+button {
+  width: 65px;
+  height: 65px;
+}
+
+.dissapear {
+  display: none;
+}
+
+.blue {
+  color: red;
+  background-color: blue;
+}
+
+.darkmode {
+  background-color: slategrey;
+}
