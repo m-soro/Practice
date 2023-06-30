@@ -19,7 +19,7 @@
 // IMPORTING THIS ONE and ONLY METHOD
 import { getFanUrl } from "./fanClass.js";
 
-// ARRAY POPULATOR IT GETS THE FAN PICTURE AND NAME
+// ARRAY OF ARRAY POPULATOR - IT GETS THE FAN PICTURE AND NAME
 const populateFanArray = (fanCount = 1) => {
   const fanArray = [];
   for (let i = 0; i < fanCount; i++) {
@@ -45,7 +45,6 @@ const addItem = (arr) => {
   let newFigcaption = document.createElement("figcaption");
   newFigcaption.innerText = arr[0][0].toUpperCase();
   newFigure.append(newFan, newFigcaption);
-  console.log(arr);
   return newFigure;
 };
 
@@ -59,5 +58,11 @@ const createManyFans = (num) => {
 const btn = document.querySelector(".fanButton");
 
 btn.addEventListener("click", () => {
-  createManyFans(document.querySelector("#fanNumber").value);
+  if (main.innerHTML) {
+    console.log("Has content, removing previous content");
+    main.innerHTML = "";
+  } else {
+    console.log("No content, adding content");
+    createManyFans(document.querySelector("#fanNumber").value);
+  }
 });
