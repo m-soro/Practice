@@ -32,13 +32,13 @@ figure {
   justify-content: center;
   align-items: center;
   margin: 0px auto;
+  animation: fadeIn 1.5s;
 }
 
 img {
   width: 250px;
   height: auto;
   border-radius: 20px;
-  animation: fadeIn 1s;
 }
 
 figcaption {
