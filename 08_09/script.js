@@ -57,25 +57,19 @@ const createManyFans = (num) => {
 
 const btn = document.querySelector(".fanButton");
 
-btn.addEventListener(
-  "click",
-  () => {
-    if (main.innerHTML) {
-      console.log("Has content, removing previous content");
-      main.innerHTML = "";
-    } else {
-      console.log("No content, adding content");
-      createManyFans(document.querySelector("#fanNumber").value);
-    }
+btn.addEventListener("click", () => {
+  if (main.innerText) {
+    console.log("Has content, removing previous content");
+    main.innerText = "";
+  } else {
+    console.log("No content, adding content");
+    createManyFans(document.querySelector("#fanNumber").value);
   }
-  // THE TERNARY OPERATOR VERSION
-  // main.innerHTML
-  //   ? (main.innerHTML = "")
-  //   : createManyFans(document.querySelector("#fanNumber").value);
-  //}
-);
+});
 
+// THE ABOUT TEXT-STYLE BUTTON
 const abtBtn = document.querySelector(".about-btn");
+// THE COLLAPSIBLE HIDDEN DIV
 const collapsible = document.querySelector(".collapsible");
 abtBtn.addEventListener("click", () => {
   console.log("abt button is clicked");
