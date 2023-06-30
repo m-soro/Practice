@@ -24,4 +24,6 @@ Using everything we've learned so far:
 - Pass it to the figure function
 - Return everything to the main function
 
+[The Mandarin Oriental Signature Fans](https://m-soro.github.io/Practice/08_09/index.html) Hosted on Github pages
+
 [Replit Link](https://the-mandarin-oriental-fans.msoro.repl.co/)

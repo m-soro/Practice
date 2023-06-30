@@ -30,10 +30,10 @@ function darkMode() {
   console.log("button1 is clicked");
   if (h1.innerHTML != "Dark Mode") {
     h1.innerHTML = "Dark Mode";
-    btn1.innerHTML = "Dark Mode";
+    btn1.innerHTML = "LIGHT Mode";
   } else {
     h1.innerHTML = "Light Mode";
-    btn1.innerHTML = "Light Mode";
+    btn1.innerHTML = "DARK Mode";
   }
 }
 
