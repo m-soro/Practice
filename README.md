@@ -48,11 +48,12 @@
   > Learned and created functions - that manipulated the DOM - added elements, remove class, added class
   >
   > - [Practice webpage](https://functions.msoro.repl.co/)
-  > - [Practice webpage](https://m-soro.github.io/Practice/08_06/index.html)
 
-- 08_09 [Insert Topic](https://github.com/m-soro/Practice/tree/main/08_06)
+- 08_09 [Passing return of Functions to Another Function to Manipulate Dom](https://github.com/m-soro/Practice/tree/main/08_09)
 
+  > Used functions that passed around return to another function to manipulate the DOM. I used css flex box to make the webpage responsive
   >
+  > - [The Mandarin Oriental Signature Fans](https://the-mandarin-oriental-fans.msoro.repl.co/)
 
 - 09_04 [Insert Topic](https://github.com/m-soro/Practice/tree/main/09_04)
   >
