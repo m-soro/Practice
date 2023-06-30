@@ -13,47 +13,51 @@
  *  - Returns <figure> element to where function is called
  */
 
-const frogpack = {
-  name: "Frog Backpack",
-  volume: 8,
-  color: "green",
-  pocketNum: 3,
-  strapLength: {
-    left: 10,
-    right: 10,
-  },
-  lidOpen: false,
-  image: "../../assets/images/frog.svg",
-  toggleLid: function (lidStatus) {
-    this.lidOpen = lidStatus;
-  },
-  newStrapLength: function (lengthLeft, lengthRight) {
-    this.strapLength.left = lengthLeft;
-    this.strapLength.right = lengthRight;
-  },
+// ENDED UP NOT USING THIS CLASS CONSTRUCTOR
+// import Fan from "./fanClass.js";
+
+// IMPORTING THIS ONE and ONLY METHOD
+import { getFanUrl } from "./fanClass.js";
+
+// ARRAY POPULATOR IT GETS THE FAN PICTURE AND NAME
+const populateFanArray = (fanCount = 1) => {
+  const fanArray = [];
+  for (let i = 0; i < fanCount; i++) {
+    fanArray.push(getFanUrl());
+  }
+  return fanArray;
 };
 
-// Baseline HTML output
-const content = `
-    <h1 class="backpack__name">${frogpack.name}</h1>
-    <ul class="backpack__features">
-      <li class="packprop backpack__volume">Volume:<span> ${
-        frogpack.volume
-      }l</span></li>
-      <li class="packprop backpack__color">Color:<span> ${
-        frogpack.color
-      }</span></li>
-      <li class="packprop backpack__pockets">Number of pockets:<span> ${
-        frogpack.pocketNum
-      }</span></li>
-      <li class="packprop backpack__strap">Left strap length:<span> ${
-        frogpack.strapLength.left
-      } inches</span></li>
-      <li class="packprop backpack__strap">Right strap length:<span> ${
-        frogpack.strapLength.right
-      } inches</span></li>
-      <li class="feature backpack__lid">Lid status:<span> ${
-        frogpack.lidOpen ? "open" : "closed"
-      }</span></li>
-    </ul>  
-`;
+// CREATES A DICTIONARY LIKE OF OBJECTS
+// const entries = new Map(populateFanArray(10));
+// const FanObj = Object.fromEntries(entries);
+// console.log(FanObj);
+
+// THIS IS WHERE THE CONTENTS WILL APPEAR
+const main = document.querySelector(".main-container");
+
+// FUNCTION THAT CREATES INDIVIDUAL FAN CONTENT
+const addItem = (arr) => {
+  let newFigure = document.createElement("figure");
+  let newFan = document.createElement("img");
+  newFan.setAttribute("src", arr[0][1]);
+  newFan.setAttribute("alt", arr[0][0] + " signature-fan");
+  let newFigcaption = document.createElement("figcaption");
+  newFigcaption.innerText = arr[0][0].toUpperCase();
+  newFigure.append(newFan, newFigcaption);
+  console.log(arr);
+  return newFigure;
+};
+
+// FUNCTION THAT CREATES **MANY** INDIVIDUAL FAN
+const createManyFans = (num) => {
+  for (let i = 0; i < num; i++) {
+    main.append(addItem(populateFanArray()));
+  }
+};
+
+const btn = document.querySelector(".fanButton");
+
+btn.addEventListener("click", () => {
+  createManyFans(document.querySelector("#fanNumber").value);
+});
