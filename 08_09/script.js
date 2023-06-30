@@ -57,15 +57,23 @@ const createManyFans = (num) => {
 
 const btn = document.querySelector(".fanButton");
 
-btn.addEventListener("click", () => {
-  if (main.innerHTML) {
-    console.log("Has content, removing previous content");
-    main.innerHTML = "";
-  } else {
-    console.log("No content, adding content");
-    createManyFans(document.querySelector("#fanNumber").value);
+btn.addEventListener(
+  "click",
+  () => {
+    if (main.innerHTML) {
+      console.log("Has content, removing previous content");
+      main.innerHTML = "";
+    } else {
+      console.log("No content, adding content");
+      createManyFans(document.querySelector("#fanNumber").value);
+    }
   }
-});
+  // THE TERNARY OPERATOR VERSION
+  // main.innerHTML
+  //   ? (main.innerHTML = "")
+  //   : createManyFans(document.querySelector("#fanNumber").value);
+  //}
+);
 
 const abtBtn = document.querySelector(".about-btn");
 const collapsible = document.querySelector(".collapsible");
