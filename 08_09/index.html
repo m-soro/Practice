@@ -1,31 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Practice: Pass values between functions</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <script type="module" src="script.js"></script>
-    <script type="module" src="fanClass.js"></script>
-  </head>
-  <body>
-    <header>
-      <h1>The Mandarin Oriental Signature Fans</h1>
-      <form>
-        <label for="fanNumber">How many fans would you like to view?</label>
-        <input type="number" name="number" id="fanNumber" />
-        <button class="fanButton" type="button">Button</button>
-      </form>
-    </header>
-
-    <main>
-      <div class="main-container"></div>
-    </main>
-  </body>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>The Mandarin Oriental Signature Fans</title>
+      <link rel="stylesheet" href="styles.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+         rel="stylesheet"
+         />
+      <script type="module" src="script.js"></script>
+      <script type="module" src="fanClass.js"></script>
+   </head>
+   <body>
+      <header>
+         <h1>The Mandarin Oriental Signature Fans</h1>
+         <form>
+            <label for="fanNumber">How many fans would you like to view?</label>
+            <input type="number" name="number" id="fanNumber" value="6"/>
+            <button class="fanButton" type="button">View</button>
+         </form>
+      </header>
+      <main>
+         <hr>
+         <button class="about-btn">About the Signature Fans</button>
+         <div class="collapsible not-active">
+            <p>
+               The Mandarin Oriental Signature Fans are renowned for their exquisite
+               design and craftsmanship. These decorative fans, often found in
+               Mandarin Oriental hotels, boast intricate patterns, vibrant colors,
+               and traditional motifs.
+            </p>
+            <p>
+               Often made from silk, bamboo, and hand-painted paper, they reflect the
+               cultural heritage of the region. While providing a functional purpose,
+               these fans also serve as elegant decorative pieces, adding a touch of
+               sophistication to hotel rooms and public areas.
+            </p>
+            <p>
+               They have become sought-after souvenirs, allowing guests to take home
+               a piece of the Mandarin Oriental experience, encapsulating beauty and
+               cultural significance in just a few delicate folds.
+            </p>
+            <p>Which is your favorite?</p>
+         </div>
+         </div>
+         <div class="main-container">
+            <!-- javascript generated content displays here -->
+         </div>
+         <div class="footer-container">
+            <footer>
+               <hr class="footer-line">
+               <img class="footer-image" src="https://www.mo-residencesmuscat.com/wp-content/themes/eaglehills-package/images/mobile-logo.png" alt="">
+            </footer>
+         </div>
+      </main>
+   </body>
 </html>

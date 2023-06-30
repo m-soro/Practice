@@ -66,3 +66,11 @@ btn.addEventListener("click", () => {
     createManyFans(document.querySelector("#fanNumber").value);
   }
 });
+
+const abtBtn = document.querySelector(".about-btn");
+const collapsible = document.querySelector(".collapsible");
+abtBtn.addEventListener("click", () => {
+  console.log("abt button is clicked");
+  collapsible.classList.toggle("not-active");
+  collapsible.classList.toggle("fade-in");
+});

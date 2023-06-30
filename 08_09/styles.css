@@ -8,18 +8,25 @@ body {
 }
 
 main {
-  padding: 20px;
-  display: flex;
+  padding: 0px;
+  width: 90%;
+  margin: 10px auto;
 }
+
+/* THE FLEX BOX CONTAINER FOR ALL FAN ARTICLES */
 
 .main-container {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  margin: auto;
+  margin: 0 auto 100px auto;
   column-gap: 15px;
   row-gap: 15px;
 }
+
+/* END OF FLEX BOX CONTAINER FOR ALL FAN ARTICLES */
+
+/* STYLING FOR INDIVIDUAL FAN ARTICLES */
 
 figure {
   justify-content: center;
@@ -28,32 +35,40 @@ figure {
 }
 
 img {
-  /* transition: top 3s ease 3s; */
   width: 250px;
   height: auto;
   border-radius: 20px;
+  animation: fadeIn 1s;
 }
 
 figcaption {
   text-align: center;
+}
+/* END OF STYLING FOR INDIVIDUAL FAN ARTICLES */
+
+/* HEADER STYLING */
+
+/* THIS IS THE SUBTLE LINE */
+hr {
+  margin-bottom: 1.7em;
+  border-top: 0.1px #233142;
 }
 
 header {
   display: flex;
   width: 90%;
   margin: 10px auto;
+  column-gap: 50px;
+  justify-content: space-between;
 }
 
-h1,
 form {
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  width: auto;
+  margin: auto 0;
 }
 
 form label {
-  font-size: 0.9em;
-  text-align: center;
+  font-size: 0.8em;
 }
 
 input {
@@ -63,4 +78,75 @@ input {
 }
 button {
   height: 25px;
+  color: inherit;
+  border-radius: 5px;
 }
+
+/* END OF HEADER STYLING */
+
+/* STYLING THE COLLAPSIBLE */
+
+.collapsible {
+  font-size: 0.9em;
+}
+
+.not-active {
+  display: none;
+}
+
+.about-btn {
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+  font-size: 1.3em;
+  color: inherit;
+  margin-bottom: 1.5em;
+}
+
+.about-btn:hover,
+button:hover {
+  color: #3b50b2;
+}
+
+/* SLOW FADE IN ANIMATION */
+.fade-in {
+  animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* END OF STYLING THE COLLAPSIBLE */
+
+/* FOOTER STYLINGS */
+
+.footer-line {
+  margin-bottom: 0.9em;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 0.7em;
+  width: inherit;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-image {
+  margin-top: 0.5em;
+  height: 1.8em;
+  width: auto;
+}
+
+.footer-container {
+  width: inherit;
+}
+
+/* END OF FOOTER STYLINGS */

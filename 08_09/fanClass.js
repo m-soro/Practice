@@ -1,5 +1,4 @@
 // This is the Mandarin Oriental Fan Object
-
 const destinations = [
   // "abu-dhabi",
   "bangkok",
