@@ -57,5 +57,11 @@
   > - [The Mandarin Oriental Signature Fans](https://the-mandarin-oriental-fans.msoro.repl.co/) Hosted on Repl.it
   > - [The Mandarin Oriental Signature Fans](https://m-soro.github.io/Practice/08_09/index.html) Hosted on Github pages
 
+- 08_16 [For Loops/map/forEach - Build an advanced function](https://github.com/m-soro/Practice/tree/main/08_16)
+
+  > Use map to create an array of object that is processed to be an HTML element. Used forEach loop to append the result of the map array.
+  >
+  > - [Practice Webpage](https://m-soro.github.io/Practice/08_16/index.html)
+
 - 09_04 [Insert Topic](https://github.com/m-soro/Practice/tree/main/09_04)
   >
