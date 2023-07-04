@@ -59,7 +59,7 @@ body.addEventListener("keydown", (event) => {
   console.log(event.code);
 
   // Test for KeyD (the "d" key)
-  if (event.code === "KeyD") {
+  if (event.code === "Enter") {
     body.style.backgroundColor === ""
       ? (body.style.backgroundColor = "hsl(201, 34%, 13%)")
       : (body.style.backgroundColor = "");

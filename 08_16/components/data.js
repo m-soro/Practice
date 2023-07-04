@@ -26,7 +26,7 @@ const frogPack = new Backpack(
   10,
   false,
   "October 16, 2019 15:00:00 PST",
-  "./images/frog.svg"
+  "./frog.svg"
 );
 
 // Add Backpack objects into an array

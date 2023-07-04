@@ -4,6 +4,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  color: #142d4c;
 }
 
 .grid {
@@ -21,4 +24,24 @@ body {
   width: 6rem;
   height: 6rem;
   background-color: hsl(0, 0%, 90%);
+}
+
+img {
+  width: 6em;
+  height: auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+  cursor: pointer;
+}
+
+.colorHover {
+  border: 3px solid #dc2f2f;
+  border-radius: 8px;
+}
+
+.emphasis {
+  font-size: 3em;
 }
