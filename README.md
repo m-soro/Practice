@@ -63,5 +63,7 @@
   >
   > - [Practice Webpage](https://m-soro.github.io/Practice/08_16/index.html)
 
-- 09_04 [Insert Topic](https://github.com/m-soro/Practice/tree/main/09_04)
+- 09_04 [Event Listener](https://github.com/m-soro/Practice/tree/main/09_04)
+  > Learned about event listeners
   >
+  > - [Who's that Pokemon?](https://m-soro.github.io/Practice/09_04/index.html)
