@@ -51,9 +51,9 @@ const newStrapLength = (strapArray) => {
     lengthForm.innerHTML = `
       <input type="number" name="${side}Length" placeholder="New ${side} length">
       <button>Update</button>
-      // Mark's Solution
-      // <button type="button">Update</button> 
     `;
+    // Mark's Solution
+    // <button type="button">Update</button>
 
     // INSTRUCTOR'S SOLUTION
     // Add event listener to the form submit action
