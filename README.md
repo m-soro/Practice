@@ -64,6 +64,12 @@
   > - [Practice Webpage](https://m-soro.github.io/Practice/08_16/index.html)
 
 - 09_04 [Event Listener](https://github.com/m-soro/Practice/tree/main/09_04)
+
   > Learned about event listeners
   >
   > - [Who's that Pokemon?](https://m-soro.github.io/Practice/09_04/index.html)
+
+- 09_07 [Advanced Event Listener - and Functions](https://github.com/m-soro/Practice/tree/main/09_07)
+  > Learned about event listeners
+  >
+  > - [Practice Webpage](https://m-soro.github.io/Practice/09_07/index.html)

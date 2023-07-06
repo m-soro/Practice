@@ -1020,7 +1020,7 @@ const pokemonUrls = [
 ];
 
 // THIS IS AN OBJECT NOT ARRAY
-// console.log(typeof pokemonUrl);
+// console.log(typeof pokemonUrls);
 
 const getRanIdx = (pokemonUrl) => {
   return Math.floor(Math.random() * (pokemonUrl.length - 1) + 1);
@@ -1078,7 +1078,6 @@ cells.forEach((cell) => {
 });
 
 h1.addEventListener("mousedown", () => {
-  console.log("click");
   h1.classList.add("emphasis");
 });
 
@@ -1087,7 +1086,6 @@ h1.addEventListener("mouseup", () => {
 });
 
 h2.addEventListener("mousedown", () => {
-  console.log("click");
   h2.classList.add("emphasis");
 });
 
@@ -1120,6 +1118,12 @@ body.addEventListener("keydown", (event) => {
   }
 });
 
-// body.addEventListener("keyup", (event) => {
-//   event.code === "Enter" ? (body.style.background = "") : console.log("Hello!");
-// });
+const fruits = [
+  { name: "Apple", shape: "round", price: 1.5 },
+  { name: "Banana", shape: "long", price: 0.8 },
+];
+
+let fruit = fruits.find(({ name }) => name === "Banana");
+console.log(fruit.shape);
+
+console.log(fruits);
